@@ -1,7 +1,12 @@
 "use client"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 
 export default function Header() {
+
+    const [open, setOpen] = useState(false);
+
+
     return(
         <header>
             <div className="logo-part">
@@ -15,6 +20,23 @@ export default function Header() {
                 <Link className="header-link" href={'/'}>Dilemmalar</Link>
                 <Link className="header-link" href={'/'}>Darsliklar</Link>
             </div>
+
+
+            <button className={`burger ${open ? "open" : ""}`}  onClick={() => setOpen(!open)}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <nav className={`mobileMenu ${open ? "show" : ""}`}>
+                <Link className="header-link" href={'/'} onClick={() => setOpen(false)}>Bosh sahifa</Link>
+                <Link className="header-link" href={'/about'} onClick={() => setOpen(false)}>Biz haqimizda</Link>
+                <Link className="header-link" href={'/theory'} onClick={() => setOpen(false)}>Nazariya</Link>
+                <Link className="header-link" href={'/'} onClick={() => setOpen(false)}>Muammolar</Link>
+                <Link className="header-link" href={'/'} onClick={() => setOpen(false)}>Dilemmalar</Link>
+                <Link className="header-link" href={'/'} onClick={() => setOpen(false)}>Darsliklar</Link>
+            </nav>
         </header>
     )
 }
