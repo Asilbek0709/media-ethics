@@ -12,22 +12,22 @@ export default function Footer() {
                         <p>Nazariya, amaliy holatlar va muhokamalar orqali ommaviy axborot vositalaridagi axloqiy muammolar va dilemmalarni o‘rganish.</p>
                     </div>
                     <div className="footer-card">
-                        <h1>Pages</h1>
+                        <h1>Sahifalar</h1>
                         <Link href={'/'} className="footer-link">Biz haqimizda</Link>
-                        <Link href={'/'} className="footer-link">Nazariya</Link>
-                        <Link href={'/'} className="footer-link">Darsliklar</Link>
-                        <Link href={'/'} className="footer-link">Muammolar</Link>
+                        <Link href={'/theory'} className="footer-link">Nazariya</Link>
+                        <Link href={'/education'} className="footer-link">Darsliklar</Link>
+                        <Link href={'/problems'} className="footer-link">Muammolar</Link>
                     </div>
                     <div className="footer-card">
-                        <h1>Resources</h1>
-                        <Link href={'/'} className="footer-link">Atamalar lug‘ati</Link>
-                        <Link href={'/'} className="footer-link">Dilemmalar</Link>
+                        <h1>Resurslar</h1>
+                        <Link href={'/glossary'} className="footer-link">Atamalar lug‘ati</Link>
+                        <Link href={'/dillemas'} className="footer-link">Dilemmalar</Link>
                     </div>
                     <div className="footer-card">
-                        <h1>Contact</h1>
-                        <p className="footer-link">email</p>
+                        <h1>Aloqa</h1>
+                        <p className="footer-link">xilola08051982@gmail.com, n.qosimova2012@yandex.com</p>
                         <p className="footer-link">phone</p>
-                        <p className="footer-link">address</p>
+                        <p className="footer-link">100017, O'zbekiston Respublikasi, Toshkent shahri, Markaz-5, 88-uy</p>
                     </div>
                 </div>
                 <hr className="line" />

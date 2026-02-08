@@ -111,7 +111,7 @@ export default function Home() {
                 <p>Axloqiy ramkalar va qaror qabul qilish jarayonini kundalik ish faoliyatingizda chuqurroq tushuning.</p>
               </div>
               <div className="audience-card">
-                <h2>Studentlar</h2>
+                <h2>Talabalar</h2>
                 <p>Ommaviy axborot vositalari etikasini keng qamrovli nazariya, real holatlar va dilemmalar orqali o‘rganing.</p>
               </div>
               <div className="audience-card">
@@ -119,7 +119,7 @@ export default function Home() {
                 <p>Sinfingizda media etikasi darslarini o‘qitish uchun resurslar va materiallarga ega bo‘ling.</p>
               </div>
               <div className="audience-card">
-                <h2>Media Tashkilotlari</h2>
+                <h2>Media tashkilotlari</h2>
                 <p>Tahririy siyosat va xodimlarni o‘qitish dasturlarini mustahkam axloqiy ramkalarga asoslang.</p>
               </div>
               <div className="audience-card">
