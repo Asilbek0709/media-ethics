@@ -27,7 +27,7 @@ export default function Home() {
               </div>
               <div className="hero-aboout-info">
                 <h1>Keng qamrovli nazariya</h1>
-                <p>Deontologik, oqibatga asoslangan (konsekventsialist), fazilatlar etikasi va g‘amxo‘rlikka asoslangan axloqiy yondashuvlarni tushuning.</p>
+                <p>Deontologik, oqibatga asoslangan (konsekventsialist), fazilatlar etika, g‘amxo‘rlikka asoslangan etika</p>
               </div>
             </div>
             <div className="hero-about-card">
@@ -63,23 +63,23 @@ export default function Home() {
           <div className="main-sections">
             <h1>Asosiy bo'limlar</h1>
             <div className="main-sections-container">
-              <Link href={'/'} style={{textDecoration: "none", color: "#000"}}>
+              <Link href={'/theory'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
-                <h1>Theory</h1>
+                <h1>Nazariya</h1>
                 <p>Ethical frameworks and philosophical approaches</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
-              <Link href={'/'} style={{textDecoration: "none", color: "#000"}}>
+              <Link href={'/cases'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
-                <h1>Theory</h1>
+                <h1>Keyslar</h1>
                 <p>Ethical frameworks and philosophical approaches</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
-              <Link href={'/'} style={{textDecoration: "none", color: "#000"}}>
+              <Link href={'/education'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
-                <h1>Theory</h1>
+                <h1>Darsliklar</h1>
                 <p>Ethical frameworks and philosophical approaches</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
