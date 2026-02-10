@@ -66,28 +66,28 @@ export default function Home() {
               <Link href={'/theory'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
                 <h1>Nazariya</h1>
-                <p>Ethical frameworks and philosophical approaches</p>
+                <p>Axloqiy asoslar va falsafiy yondashuvlar</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
               <Link href={'/cases'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
                 <h1>Keyslar</h1>
-                <p>Ethical frameworks and philosophical approaches</p>
+                <p>Belgilangan keyslar va ularning natijalari</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
               <Link href={'/education'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
                 <h1>Darsliklar</h1>
-                <p>Ethical frameworks and philosophical approaches</p>
+                <p>Ommaviy axborot vositalari etikasini o'rgatish va o'rganish uchun vositalar va materiallar.</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
               <Link href={'/'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
-                <h1>Theory</h1>
-                <p>Ethical frameworks and philosophical approaches</p>
+                <h1>Dillemalar</h1>
+                <p>Ko'rib chiqish uchun maxsus axloqiy stsenariylar</p>
                 <div className="more-info">
                   Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 </div>

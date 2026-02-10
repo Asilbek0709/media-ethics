@@ -17,7 +17,7 @@ export default function Header() {
                 <Link className="header-link" href={'/about'}>Biz haqimizda</Link>
                 <Link className="header-link" href={'/theory'}>Nazariya</Link>
                 <Link className="header-link" href={'/case'}>Keyslar</Link>
-                <Link className="header-link" href={'/'}>Dilemmalar</Link>
+                <Link className="header-link" href={'/dillemas'}>Dilemmalar</Link>
                 <Link className="header-link" href={'/education'}>Darsliklar</Link>
             </div>
 
@@ -34,7 +34,7 @@ export default function Header() {
                 <Link className="header-link" href={'/about'} onClick={() => setOpen(false)}>Biz haqimizda</Link>
                 <Link className="header-link" href={'/theory'} onClick={() => setOpen(false)}>Nazariya</Link>
                 <Link className="header-link" href={'/case'} onClick={() => setOpen(false)}>Keyslar</Link>
-                <Link className="header-link" href={'/'} onClick={() => setOpen(false)}>Dilemmalar</Link>
+                <Link className="header-link" href={'/dillemas'} onClick={() => setOpen(false)}>Dilemmalar</Link>
                 <Link className="header-link" href={'/education'} onClick={() => setOpen(false)}>Darsliklar</Link>
             </nav>
         </header>

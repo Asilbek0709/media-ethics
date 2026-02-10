@@ -1,6 +1,4 @@
-/* ============================================
-   CSS VARIABLES & RESET
-   ============================================ */
+
 
 :root {
   --color-primary: #204289;
@@ -17,21 +15,17 @@
   --color-border-hover: #7A2E2E;
   --color-text-secondary: #555;
   --color-text-tertiary: #333;
-
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 2rem;
   --spacing-lg: 4rem;
   --spacing-xl: 8rem;
-
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Georgia", "Times New Roman", serif;
   --letter-spacing: 0.5px;
-
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
   --radius-lg: 1rem;
-
   --transition: 0.3s ease-in-out;
   --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -157,7 +151,7 @@ header .navigation .header-link:hover {
 }
 
 .hero,
-.about-hero, .cases-hero {
+.about-hero, .cases-hero, .dilemmas-hero, .dilemmaHero {
   display: flex;
   flex-direction: column;
   padding: var(--spacing-lg) var(--spacing-xl);
@@ -232,7 +226,7 @@ header .navigation .header-link:hover {
 
 .hero-about-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--spacing-lg);
   margin-top: var(--spacing-md);
   width: 100%;
@@ -298,7 +292,7 @@ header .navigation .header-link:hover {
 
 .main-sections-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--spacing-md);
   padding: var(--spacing-md) 0;
   width: 100%;
@@ -1089,5 +1083,165 @@ footer {
 
   .filterButtons{
     gap: 0.5rem;
+  }
+}
+.dilemmas-variations{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 8rem;
+  gap: 2rem;
+}
+
+.dilemma-link{
+  text-decoration: none;
+  color: #000;
+}
+
+.dilemmas{
+  display: flex;
+  flex-direction: column;
+  background-color: #E8EBF0;
+}
+
+.dilemma-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: var(--spacing-sm);
+  border: 0.5px solid transparent;
+  transition: border 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.dilemma-card:hover{
+  border: 0.5px solid #7A2E2E;
+  transform: translateY(-2px);
+}
+
+.dilemma-card h1{
+  color: #1F2A44;
+  font-size: 26px;
+}
+
+.dilemma-card p{
+  font-size: 20px;
+  color: #204289;
+}
+
+.dilemma-card svg{
+  margin-left: auto;
+}
+
+.digitalDilemmas,
+.eventDilemmas,
+.onlineDilemmas{
+  display: flex;
+  flex-direction: column;
+  padding: 0 8rem;
+  background-color: #E8EBF0;
+  gap: 2rem;
+}
+
+.dilemmaInfo{
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0 0 0.5rem 0.5rem;
+  border: 0.5px solid transparent;
+  font-size: 16px;
+  color: #1F2A44;
+  font-weight: 500;
+}
+
+.digitalDilemmas iframe,
+.eventDilemmas iframe,
+.onlineDilemmas iframe{
+  width: 100%;
+  height: 50rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+@media (max-width: 1024px){
+  .dilemmas-variations{
+    padding: 2rem 4rem;
+  }
+
+  .digitalDilemmas,
+  .eventDilemmas,
+  .onlineDilemmas{
+    padding: 0 4rem;
+  }
+
+  .dilemma-card h1{
+    font-size: 22px;
+  }
+
+  .dilemma-card p{
+    font-size: 18px;
+  }
+
+  .digitalDilemmas iframe,
+  .eventDilemmas iframe,
+  .onlineDilemmas iframe{
+    height: 35rem;
+  }
+}
+@media (max-width: 768px){
+  .dilemmas-variations{
+    padding: 1.5rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .digitalDilemmas,
+  .eventDilemmas,
+  .onlineDilemmas{
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .dilemma-card{
+    padding: 1rem;
+  }
+
+  .dilemma-card h1{
+    font-size: 18px;
+  }
+
+  .dilemma-card p{
+    font-size: 15px;
+  }
+
+  .dilemmaInfo{
+    font-size: 14px;
+  }
+
+  .digitalDilemmas iframe,
+  .eventDilemmas iframe,
+  .onlineDilemmas iframe{
+    height: 22rem;
+  }
+}
+@media (max-width: 480px){
+  .dilemmas-variations{
+    padding: 1rem;
+  }
+
+  .digitalDilemmas,
+  .eventDilemmas,
+  .onlineDilemmas{
+    padding: 0 1rem;
+  }
+
+  .dilemma-card h1{
+    font-size: 16px;
+  }
+
+  .dilemma-card p{
+    font-size: 14px;
+  }
+
+  .digitalDilemmas iframe,
+  .eventDilemmas iframe,
+  .onlineDilemmas iframe{
+    height: 18rem;
   }
 }
