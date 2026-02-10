@@ -21,7 +21,7 @@ export default function Footer() {
                     <div className="footer-card">
                         <h1>Resurslar</h1>
                         <Link href={'/glossary'} className="footer-link">Atamalar lug‘ati</Link>
-                        <Link href={'/dillemas'} className="footer-link">Dilemmalar</Link>
+                        <Link href={'/dilemmas'} className="footer-link">Dilemmalar</Link>
                     </div>
                     <div className="footer-card">
                         <h1>Aloqa</h1>

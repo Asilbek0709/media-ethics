@@ -17,7 +17,7 @@ export default function Header() {
                 <Link className="header-link" href={'/about'}>Biz haqimizda</Link>
                 <Link className="header-link" href={'/theory'}>Nazariya</Link>
                 <Link className="header-link" href={'/case'}>Keyslar</Link>
-                <Link className="header-link" href={'/dillemas'}>Dilemmalar</Link>
+                <Link className="header-link" href={'/dilemams'}>Dilemmalar</Link>
                 <Link className="header-link" href={'/education'}>Darsliklar</Link>
             </div>
 

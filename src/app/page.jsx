@@ -15,7 +15,7 @@ export default function Home() {
           </div>
           <div className="explorer-links">
             <Link href={'/theory'} className="explorer">Nazariyani o‘rganish</Link>
-            <Link href={'/'} className="explorer">Darsliklar</Link>
+            <Link href={'/education'} className="explorer">Darsliklar</Link>
           </div>
         </div>
         <div className="about">
@@ -27,7 +27,7 @@ export default function Home() {
               </div>
               <div className="hero-aboout-info">
                 <h1>Keng qamrovli nazariya</h1>
-                <p>Deontologik, oqibatga asoslangan (konsekventsialist), fazilatlar etika, g‘amxo‘rlikka asoslangan etika</p>
+                <p>Deontologik, oqibatga asoslangan (konsekventsialist), g‘amxo‘rlikka asoslangan etika.</p>
               </div>
             </div>
             <div className="hero-about-card">
@@ -36,7 +36,7 @@ export default function Home() {
               </div>
               <div className="hero-aboout-info">
                 <h1>Haqiqiy muammolar</h1>
-                <p>Zamonaviy OAVda jurnalistlar har kuni duch keladigan real axloqiy muammolarni o‘rganing..</p>
+                <p>Zamonaviy OAVda jurnalistlar har kuni duch keladigan real axloqiy muammolarni o‘rganing.</p>
               </div>
             </div>
             <div className="hero-about-card">
@@ -45,7 +45,7 @@ export default function Home() {
               </div>
               <div className="hero-aboout-info">
                 <h1>Dilemmalar va holatlar</h1>
-                <p>Media etikasini shakllantirgan real hayotiy vaziyatlar va muhim (tarixiy) holatlarni tahlil qiling.</p>
+                <p>Media etikasini shakllantirgan real hayotiy vaziyatlar va muhim (tarixiy) holatlar.</p>
               </div>
             </div>
             <div className="hero-about-card">
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <div className="hero-aboout-info">
                 <h1>Muvozanatli nuqtai nazar</h1>
-                <p>Axloqiy qarorlar qabul qilishda turli nuqtai nazarlar va manfaatdor tomonlarning qiziqishlarini hisobga oling.</p>
+                <p>Axloqiy qarorlar qabul qilishda turli nuqtai nazarlar va manfaatdor tomonlarning qiziqishlari.</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
-              <Link href={'/cases'} style={{textDecoration: "none", color: "#000"}}>
+              <Link href={'/case'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
                 <h1>Keyslar</h1>
                 <p>Belgilangan keyslar va ularning natijalari</p>
@@ -84,7 +84,7 @@ export default function Home() {
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
-              <Link href={'/'} style={{textDecoration: "none", color: "#000"}}>
+              <Link href={'/dilemmas'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
                 <h1>Dillemalar</h1>
                 <p>Ko'rib chiqish uchun maxsus axloqiy stsenariylar</p>
