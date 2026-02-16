@@ -16,6 +16,27 @@ export default function About(){
                         <p>Mas’uliyatli jurnalistika va media amaliyotining axloqiy asoslarini tushunish.</p>
                     </div>
                 </div>
+                <div className="authorsContainer">
+                    <h1>Mualiflar haqida</h1>
+                    <div className="authors">
+                        <div className="authorProfile">
+                            <div className="authorPhoto">
+                                <img src="/author1.JPG" alt="" />
+                            </div>
+                            <div className="authorInfo">
+                                <p>Nargis Qosimova (1969, Jizzax) — o‘zbek jurnalisti, filologiya fanlari doktori, professor. O‘zbekiston jurnalistika va ommaviy kommunikatsiyalar universitetida faoliyat yuritadi. Internet va eko-jurnalistika nazariyasi bo‘yicha tadqiqotlar olib boradi, „Ekolog“ jamoat birlashmasi direktori. 45 dan ortiq qo‘llanma va monografiya, 1000+ maqola muallifi, ko‘plab tanlovlar g‘olibi va ustoz-shogird tizimi rahbari.</p>
+                            </div>
+                        </div>
+                        <div className="authorProfile">
+                            <div className="authorPhoto">
+                                <img src="/author1.JPG" alt="" />
+                            </div>
+                            <div className="authorInfo">
+                                <p>Nargis Qosimova (1969, Jizzax) — o‘zbek jurnalisti, filologiya fanlari doktori, professor. O‘zbekiston jurnalistika va ommaviy kommunikatsiyalar universitetida faoliyat yuritadi. Internet va eko-jurnalistika nazariyasi bo‘yicha tadqiqotlar olib boradi, „Ekolog“ jamoat birlashmasi direktori. 45 dan ortiq qo‘llanma va monografiya, 1000+ maqola muallifi, ko‘plab tanlovlar g‘olibi va ustoz-shogird tizimi rahbari.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="mission-container">
                     <h1>Bizning vazifamiz</h1>
                     <div className="mission-card">

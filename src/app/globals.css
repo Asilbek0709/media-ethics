@@ -1245,3 +1245,22 @@ footer {
     height: 18rem;
   }
 }
+.authorsContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 8rem;
+}
+.authors{
+  display: flex;
+  gap: 2rem; 
+  padding: 2rem 0rem;
+}
+.authors img{
+  width: 20rem;
+}
+.authorProfile{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 0rem;
+}

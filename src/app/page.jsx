@@ -27,7 +27,7 @@ export default function Home() {
               </div>
               <div className="hero-aboout-info">
                 <h1>Keng qamrovli nazariya</h1>
-                <p>Deontologik, oqibatga asoslangan (konsekventsialist), g‘amxo‘rlikka asoslangan etika.</p>
+                <p>Deontologik va konsektivistik yondashuv</p>
               </div>
             </div>
             <div className="hero-about-card">
@@ -66,7 +66,7 @@ export default function Home() {
               <Link href={'/theory'} style={{textDecoration: "none", color: "#000"}}>
               <div className="main-section-card">
                 <h1>Nazariya</h1>
-                <p>Axloqiy asoslar va falsafiy yondashuvlar</p>
+                <p>Me'yoriy-huquqiy asos va dilemmalar</p>
                  <div className="more-info">Batafsil <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
               </div>
               </Link>
@@ -95,12 +95,25 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="authors-profiles">
-            <div className="author-profile">
-
-            </div>
-            <div className="author-profile">
-
+          <div className="authorsContainer">
+            <h1>Mualiflar haqida</h1>
+            <div className="authors">
+                <div className="authorProfile">
+                  <div className="authorPhoto">
+                      <img src="/author1.JPG" alt="" />
+                  </div>
+                  <div className="authorInfo">
+                      <p>Nargis Qosimova (1969, Jizzax) — o‘zbek jurnalisti, filologiya fanlari doktori, professor. O‘zbekiston jurnalistika va ommaviy kommunikatsiyalar universitetida faoliyat yuritadi. Internet va eko-jurnalistika nazariyasi bo‘yicha tadqiqotlar olib boradi, „Ekolog“ jamoat birlashmasi direktori. 45 dan ortiq qo‘llanma va monografiya, 1000+ maqola muallifi, ko‘plab tanlovlar g‘olibi va ustoz-shogird tizimi rahbari.</p>
+                  </div>
+                </div>
+                <div className="authorProfile">
+                  <div className="authorPhoto">
+                      <img src="/author1.JPG" alt="" />
+                  </div>
+                  <div className="authorInfo">
+                      <p>Nargis Qosimova (1969, Jizzax) — o‘zbek jurnalisti, filologiya fanlari doktori, professor. O‘zbekiston jurnalistika va ommaviy kommunikatsiyalar universitetida faoliyat yuritadi. Internet va eko-jurnalistika nazariyasi bo‘yicha tadqiqotlar olib boradi, „Ekolog“ jamoat birlashmasi direktori. 45 dan ortiq qo‘llanma va monografiya, 1000+ maqola muallifi, ko‘plab tanlovlar g‘olibi va ustoz-shogird tizimi rahbari.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="audience">
