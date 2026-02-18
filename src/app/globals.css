@@ -225,8 +225,8 @@ header .navigation .header-link:hover {
 }
 
 .hero-about-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--spacing-lg);
   margin-top: var(--spacing-md);
   width: 100%;
