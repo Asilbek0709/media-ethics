@@ -1250,17 +1250,62 @@ footer {
   flex-direction: column;
   padding: 2rem 8rem;
 }
+
+
 .authors{
   display: flex;
   gap: 2rem; 
   padding: 2rem 0rem;
+  flex-wrap: wrap;          
 }
+
+
 .authors img{
-  width: 20rem;
+  width: 100%;
+  max-width: 20rem;   
+  height: auto;
+  border-radius: 12px;
 }
+
+
 .authorProfile{
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 1rem 0rem;
+  flex: 1 1 300px;  
+  max-width: 350px;
+}
+@media (max-width: 1024px){
+  .authorsContainer{
+    padding: 2rem 4rem;
+  }
+
+  .authors{
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 768px){
+  .authorsContainer{
+    padding: 1.5rem 2rem;
+  }
+
+  .authors{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .authorProfile{
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px){
+  .authorsContainer{
+    padding: 1rem;
+  }
+
+  .authors img{
+    max-width: 100%;
+  }
 }

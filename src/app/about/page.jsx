@@ -32,7 +32,7 @@ export default function About(){
                                 <img src="/author2.JPG" alt="" />
                             </div>
                             <div className="authorInfo">
-                                <p>Nargis Qosimova (1969, Jizzax) — o‘zbek jurnalisti, filologiya fanlari doktori, professor. O‘zbekiston jurnalistika va ommaviy kommunikatsiyalar universitetida faoliyat yuritadi. Internet va eko-jurnalistika nazariyasi bo‘yicha tadqiqotlar olib boradi, „Ekolog“ jamoat birlashmasi direktori. 45 dan ortiq qo‘llanma va monografiya, 1000+ maqola muallifi, ko‘plab tanlovlar g‘olibi va ustoz-shogird tizimi rahbari.</p>
+                                <p>Hilola Fayzullayeva (1982, Toshkent) — media etikasi va raqamli jurnalistika tadqiqotchisi, katta o‘qituvchi. Ilmiy ishlarida onlayn media, sun’iy intellekt, axborot ishonchliligi, faktcheking, shaxsiy ma’lumotlar himoyasi hamda raqamli transformatsiya sharoitida kasbiy mas’uliyat va axloqiy me’yorlar masalalarini tahlil qiladi.</p>
                             </div>
                         </div>
                     </div>
