@@ -478,7 +478,7 @@ header .navigation .header-link:hover {
 .education-card {
   background-color: #fff;
   margin-top: var(--spacing-md);
-  padding: var(--spacing-md);
+  padding: var(--spacing-sm);
   border-radius: var(--radius-sm);
   border: 0.5px solid var(--color-border);
   transition: var(--transition);

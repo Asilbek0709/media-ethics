@@ -36,6 +36,14 @@ export default function Education(){
                     <h1>MUQADDIMA</h1>
                     <a href="muqaddima.pdf" download className="download">Yuklash</a>
                 </div>
+                <div className="education-card">
+                    <h1>Fotojurnalistika oʻquv qoʻllanma</h1>
+                    <a href="photojournalism.pdf" download className="download">Yuklash</a>
+                </div>
+                <div className="education-card">
+                    <h1>AUDIOVIZUAL JURNALISTIKA</h1>
+                    <a href="audiovisualjournalism.pdf" download className="download">Yuklash</a>
+                </div>
             </section>
         <Footer></Footer>
         </>
