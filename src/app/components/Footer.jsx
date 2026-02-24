@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="footer-card">
                         <h1>Aloqa</h1>
                         <p className="footer-link">xilola08051982@gmail.com, n.qosimova2012@yandex.com</p>
-                        <p className="footer-link">phone</p>
+                        <p className="footer-link">+998 (90) 988 73 36</p>
                         <p className="footer-link">100017, O'zbekiston Respublikasi, Toshkent shahri, Markaz-5, 88-uy</p>
                     </div>
                 </div>
