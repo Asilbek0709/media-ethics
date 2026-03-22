@@ -10,7 +10,7 @@ export default function Home() {
       <section className="home">
         <div className="hero">
           <div className="hero-information">
-            <h1>RAQAMLI TRANSFORMATSIYA SHAROITIDA ONLAYN MEDIA FAOLIYATIDAGI AXLOQIY DILEMMA VA MUAMMOLAR</h1>
+            <h1 style={{textTransform: "uppercase"}}>Mediaetikada axloqiy muammolar va dilemmalar tahlili</h1>
             <p>Jahonda raqamli transformatsiya mediamakonni tubdan o‘zgartirib, jurnalistik faoliyat va kontent tarqatish jarayonlarini yangi bosqichga olib chiqdi. Bu jarayon onlayn mediada media etika, axloqiy dilemmalar, ularning huquqiy va institutsional mexanizmlarini deontologik hamda konsektivistik yondashuvlar asosida ilmiy o‘rganishni dolzarb masalaga aylantirmoqda.</p>
           </div>
           <div className="explorer-links">
@@ -126,12 +126,20 @@ export default function Home() {
                 </div>
                 <div className="authorProfile">
                   <div className="authorPhoto">
-                      <img style={{height: "13.4rem"}} src="/author2.jpg" alt="" />
+                      <img style={{height: "13.4rem"}} src="/author2.JPG" alt="" />
                   </div>
                   <div className="authorInfo">
                     <p><strong>Hilola Fayzullayeva</strong> (1982, Toshkent) — media etikasi va raqamli jurnalistika tadqiqotchisi, katta o‘qituvchi. Ilmiy ishlarida onlayn media, sun’iy intellekt, axborot ishonchliligi, faktcheking, shaxsiy ma’lumotlar himoyasi hamda raqamli transformatsiya sharoitida kasbiy mas’uliyat va axloqiy me’yorlar masalalarini tahlil qiladi.</p>    
                   </div>
-              </div>
+               </div>
+               <div className="authorProfile">
+                  <div className="authorPhoto">
+                    <img src="/author3.png" alt="" />
+                  </div>
+                  <div className="authorInfo">
+                    <p><strong>Axmedova Jasmina Qaxramonovna</strong></p>    
+                  </div>
+               </div>
             </div>
           </div>
           <div className="audience">

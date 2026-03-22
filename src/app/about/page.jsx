@@ -35,6 +35,14 @@ export default function About(){
                                 <p>Hilola Fayzullayeva (1982, Toshkent) — media etikasi va raqamli jurnalistika tadqiqotchisi, katta o‘qituvchi. Ilmiy ishlarida onlayn media, sun’iy intellekt, axborot ishonchliligi, faktcheking, shaxsiy ma’lumotlar himoyasi hamda raqamli transformatsiya sharoitida kasbiy mas’uliyat va axloqiy me’yorlar masalalarini tahlil qiladi.</p>
                             </div>
                         </div>
+                        <div className="authorProfile">
+                            <div className="authorPhoto">
+                                <img src="/author3.png" alt="" />
+                            </div>
+                            <div className="authorInfo">
+                                <p><strong>Axmedova Jasmina Qaxramonovna</strong></p>    
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="mission-container">
