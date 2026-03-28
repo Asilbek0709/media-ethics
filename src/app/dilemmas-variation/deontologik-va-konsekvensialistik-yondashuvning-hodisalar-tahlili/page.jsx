@@ -15,7 +15,7 @@ export default function Events() {
                     <div className="dilemmaInfo">
                         <p>Deontologik va konsekvensialistik yondashuvlar jurnalistikada hodisalarni tahlil qilishda kasbiy burch, axloqiy me’yorlar va axborot natijalarini hisobga olishni ta’minlaydi. Ushbu yondashuvlar jurnalistga xolislikni saqlash, jamoatchilik manfaatini himoyalash va qarorlarning ijtimoiy oqibatlarini oldindan baholash imkonini beradi hamda professional mas’uliyatni kuchaytirib, axborot tarqatishda ishonchlilikni mustahkamlaydi va etik qarorlar qabul qilishni rag‘batlantiradi doimo samarali.</p>
                     </div>
-                    <iframe src="/events.pdf" frameBorder={0}></iframe>
+                    <iframe src="/event1.pdf" frameBorder={0}></iframe>
                 </section>  
             <Footer></Footer>
         </>

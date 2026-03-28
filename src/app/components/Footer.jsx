@@ -13,10 +13,9 @@ export default function Footer() {
                     </div>
                     <div className="footer-card">
                         <h1>Sahifalar</h1>
-                        <Link href={'/'} className="footer-link">Biz haqimizda</Link>
+                        <Link href={'/about'} className="footer-link">Biz haqimizda</Link>
                         <Link href={'/theory'} className="footer-link">Nazariya</Link>
                         <Link href={'/education'} className="footer-link">Darsliklar</Link>
-                        <Link href={'/problems'} className="footer-link">Muammolar</Link>
                     </div>
                     <div className="footer-card">
                         <h1>Resurslar</h1>

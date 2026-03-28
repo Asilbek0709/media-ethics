@@ -29,7 +29,7 @@ export default function About(){
                         </div>
                         <div className="authorProfile">
                             <div className="authorPhoto">
-                                <img src="/author2.JPG" alt="" />
+                                <img src="/author2.png" alt="" />
                             </div>
                             <div className="authorInfo">
                                 <p>Hilola Fayzullayeva (1982, Toshkent) — media etikasi va raqamli jurnalistika tadqiqotchisi, katta o‘qituvchi. Ilmiy ishlarida onlayn media, sun’iy intellekt, axborot ishonchliligi, faktcheking, shaxsiy ma’lumotlar himoyasi hamda raqamli transformatsiya sharoitida kasbiy mas’uliyat va axloqiy me’yorlar masalalarini tahlil qiladi.</p>
