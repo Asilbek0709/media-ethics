@@ -19,6 +19,7 @@ export default function Header() {
                 <Link className="header-link" href={'/case'}>Keyslar</Link>
                 <Link className="header-link" href={'/dilemmas'}>Dilemmalar</Link>
                 <Link className="header-link" href={'/education'}>Darsliklar</Link>
+                <Link className="header-link" href={'/articles'}>Maqolalar</Link>
             </div>
 
 

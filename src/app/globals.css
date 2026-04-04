@@ -1,5 +1,3 @@
-
-
 :root {
   --color-primary: #204289;
   --color-primary-light: #4580ba;
@@ -1042,6 +1040,39 @@ footer {
   color: #204289;
   font-size: 1rem;
 }
+.articlesContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 8rem;
+  gap: 2rem;
+}
+
+/* Карточка */
+.articleCard{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 0.5px solid #7A2E2E;
+  border-radius: 0.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Инфо */
+.articleInfo{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.articleInfo a{
+  padding: 0.5rem 1rem;
+  background-color: #7A2E2E;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
 @media (max-width: 1024px) {
 
   .pdf-viewer{
@@ -1184,6 +1215,9 @@ footer {
   .onlineDilemmas iframe{
     height: 35rem;
   }
+  .articlesContainer{
+    padding: 2rem 4rem;
+  }
 }
 @media (max-width: 768px){
   .dilemmas-variations{
@@ -1219,6 +1253,19 @@ footer {
   .onlineDilemmas iframe{
     height: 22rem;
   }
+  .articlesContainer{
+    padding: 1.5rem 2rem;
+  }
+
+  .articleCard{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .articleInfo{
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 @media (max-width: 480px){
   .dilemmas-variations{
@@ -1243,6 +1290,20 @@ footer {
   .eventDilemmas iframe,
   .onlineDilemmas iframe{
     height: 18rem;
+  }
+  .articlesContainer{
+    padding: 1rem;
+  }
+
+  .articleInfo{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .articleInfo a{
+    width: 100%;
+    text-align: center;
   }
 }
 .authorsContainer{
