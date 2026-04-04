@@ -37,6 +37,7 @@ export default function Header() {
                 <Link className="header-link" href={'/case'} onClick={() => setOpen(false)}>Keyslar</Link>
                 <Link className="header-link" href={'/dillemas'} onClick={() => setOpen(false)}>Dilemmalar</Link>
                 <Link className="header-link" href={'/education'} onClick={() => setOpen(false)}>Darsliklar</Link>
+                <Link className="header-link" href={'/articles'} onClick={() => setOpen(false)}>Maqolalar</Link>
             </nav>
         </header>
     )
