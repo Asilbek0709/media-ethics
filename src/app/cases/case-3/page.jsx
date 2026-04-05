@@ -8,11 +8,9 @@ export default function Case() {
         <>
             <Header></Header>
                 <section className="case-explanation">
-                    <h1>XALQARO TAJRIBA. AQSH, TEXAS SHTATI. LAREDONING KRIMINALIST  BLOGERI (2025)</h1>
-                    <p>Jurnalist maxfiy axborotni oshkor qilmaslik, rasmiy ma’lumotdan mas’uliyat bilan foydalanish, zarar yetkazmaslik va kasbiy etikaga rioya qilish tamoyillarini buzgan.</p>
-                    <iframe src="/case-3.pdf" className="pdf-viewer" frameBorder={0}></iframe>
-                    <p><strong>Tavsiyalar:</strong> <br /> -Jurnalist har qanday yoʻl bilan rasmiy maʼlumotga ega boʻlgach, bu xabar  ortiq sir hisoblanmaydi. Shu oʻrinda uni eʼlon qilish ham qonunga zid emas. Bunday vaziyatda maʼlumotni oshkor qilgan tashkilot xodimlari javobgarlikka tortilishi zarur; <br />- Texasning b120ir qancha nashrlari va “Washington Post” gazetasi jurnalist himoyasiga oʻtib, u hech qanday qonunchilikka zid xatti-harakat qilmagan, deb topishgan. Mazkur holatda jurnalist emas, balki politsiya xodimiga nisbatan jazo choralari koʻrilishi lozimdir.</p>
-                    <a href="/case-3.pdf" className="case-download" download>To'liq PDF yuklash</a>
+                    <h1>АКТРИСА ЯНГИЛИКЛАР САЙТЛАРИНИНГ БИРИ ҚИЛГАН ТУҲМАТ ТУФАЙЛИ ТАҚИҚҚА ТУШИРИЛДИ</h1>
+                    <p>Ўзбек киносининг таниқли актрисаси янгиликлар сайтларининг бири туҳмат қилгани туфайли соғлиғи ёмонлашганини ўз интервьюсида айтди. Маълум бўлишича Ўзбекистонда машҳур сайтлардан бири «Актриса «КВН» ўйинларида ўзбек миллатининг устидан кулди! Шунинг учун лицензиясини олиб қўйишди» деган хабарни эълон қилган. Актриса «Мен шундай иш қилганимда, бу аллақачон ижтимоий тармоқларга тарқаб кетган бўлмасмиди? Бунинг устига, нега мен ўз миллатимни кулгуга оламан, бу менга нима учун керак? Ўша сайтни дея қанча ҳақорат эшитдим, ҳатто пўписа қилганлар мени тузини еб тузлуғига тупурганликда айблаганлар ҳам бўлди. </p>
+                    <iframe src="/case4.pdf" className="pdf-viewer" frameBorder={0}></iframe>
                 </section>
             <Footer></Footer>
         </>

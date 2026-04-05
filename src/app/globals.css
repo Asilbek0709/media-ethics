@@ -1185,7 +1185,7 @@ footer {
 
 .digitalDilemmas iframe,
 .eventDilemmas iframe,
-.onlineDilemmas iframe{
+.onlineDilemmas iframe, .aboutTheory iframe{
   width: 100%;
   height: 50rem;
   margin-bottom: 2rem;

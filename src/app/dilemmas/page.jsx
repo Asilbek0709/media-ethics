@@ -14,6 +14,12 @@ export default function Dillemas() {
                 <p>Jurnalistlar raqobatbardosh axloqiy majburiyatlarni bajarishlari kerak bo'lgan real stsenariylarni ko'rib chiqing.</p>
             </div>
             <div className="dilemmas-variations">
+                <Link className="dilemma-link" href={'/dilemmas-variation/dilemma'}>
+                    <div className="dilemma-card">
+                        <h1>Dilemma</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
                 <Link className="dilemma-link" href={'/dilemmas-variation/deontologik-va-konsekvensialistik-yondashuvning-tahlili'}>
                     <div className="dilemma-card">
                         <h1>Onlayn mediadagi axloqiy dilemmalar va ularning tahlili</h1>
@@ -88,6 +94,54 @@ export default function Dillemas() {
                     <div className="dilemma-card">
                         <h1>Algoritmik tavsiyalar, “filter bubble” va axborot xilma-xilligi muammosi</h1>
                         <p>Raqamli platformalarda qo‘llanilayotgan algoritmik kontent tavsiya tizimlari foydalanuvchilarga moslashtirilgan axborot yetkazib berish imkonini yaratadi.</p>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/absolyut-dilemma'}>
+                    <div className="dilemma-card">
+                        <h1>Absolyut dilemma</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/axloqiy-relyativizm'}>
+                    <div className="dilemma-card">
+                        <h1>Axloqiy relyativizm </h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/deontologiya'}>
+                    <div className="dilemma-card">
+                        <h1>Deontologiya</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/dilemmaning-asosiy-xususiyatlari'}>
+                    <div className="dilemma-card">
+                        <h1>Dilemmalaning asosiy xususiyati</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/axloqiy-dilemma-tendensiyalari'}>
+                    <div className="dilemma-card">
+                        <h1>Аxloqiy dilemma tendensiyalari</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/qarorsizlik-dilemmasi'}>
+                    <div className="dilemma-card">
+                        <h1>Qarorsizlik dilemmasi</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/relyativ-dilemmalar'}>
+                    <div className="dilemma-card">
+                        <h1>Relyativ dilemmalar</h1>
+                        <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </div>
+                </Link>
+                <Link className="dilemma-link" href={'/dilemmas-variation/utilitaristik-yondashuv'}>
+                    <div className="dilemma-card">
+                        <h1>Utilitaristik yondashuv</h1>
                         <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.16666 10H15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/> <path d="M10 4.16663L15.8333 9.99996L10 15.8333" stroke="#6B7C93" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/></svg>
                     </div>
                 </Link>
